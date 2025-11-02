@@ -1,11 +1,14 @@
 //function to create a title, image and description of the restaurant
 
 import fishImage from "./fishbowl.jpeg";
-// const fishImageUrl=fishImage;
+import { removeChildren } from "./helperFunctions.js";
 
 const homePage=function(){
     //target div with id=content
     const contentDiv=document.querySelector("#content");
+
+    //remove children
+    removeChildren(contentDiv);
     
 
     // //create h2,img and p elements

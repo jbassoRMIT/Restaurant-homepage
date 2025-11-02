@@ -1,11 +1,5 @@
-//write function to remove child elements
-const removeChildren=function(parent){
-    while(parent.hasChildNodes()){
-        parent.removeChild(parent.firstChild)
-    }
-}
-
 import salad from "./fishbowlSalad.jpeg";
+import { removeChildren } from "./helperFunctions.js";
 
 //Function to render the about page
 const about=function(){

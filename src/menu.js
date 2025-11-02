@@ -1,9 +1,4 @@
-//write function to remove child elements
-const removeChildren=function(parent){
-    while(parent.hasChildNodes()){
-        parent.removeChild(parent.firstChild)
-    }
-}
+import { removeChildren } from "./helperFunctions.js";
 
 //function to render the menu
 const menu=function(){
