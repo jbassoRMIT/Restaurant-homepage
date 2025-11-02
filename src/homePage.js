@@ -3,7 +3,7 @@
 import fishImage from "./fishbowl.jpeg";
 // const fishImageUrl=fishImage;
 
-const pageLoad=function(){
+const homePage=function(){
     //target div with id=content
     const contentDiv=document.querySelector("#content");
     
@@ -25,4 +25,4 @@ const pageLoad=function(){
 }
 
 //export the function
-export {pageLoad};
+export {homePage};
